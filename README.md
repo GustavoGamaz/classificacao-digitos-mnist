@@ -24,22 +24,6 @@ Aplicar conceitos introdutórios de machine learning e redes neurais em um probl
 ## Resultados
 O modelo foi treinado para classificar imagens de dígitos manuscritos e apresentou boa capacidade de predição no conjunto de teste.
 
-## Dataset utilizado
-
-O projeto utiliza o dataset MNIST, um conjunto de dados clássico de imagens de dígitos manuscritos amplamente utilizado para treinamento e avaliação de modelos de machine learning.
-
-O dataset contém:
-
-- 60.000 imagens de treinamento
-- 10.000 imagens de teste
-- imagens em escala de cinza de 28x28 pixels representando dígitos de 0 a 9
-
-Os dados são carregados automaticamente utilizando:
-
-```python
-from tensorflow.keras.datasets import mnist
-(X_train, y_train), (X_test, y_test) = mnist.load_data()
-
 ## Arquivos do projeto
 - Código Python do modelo
 - Imagem com exemplos de previsões
