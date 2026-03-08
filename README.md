@@ -35,5 +35,9 @@ Exemplo de previsões da rede neural para dígitos do dataset MNIST.
 
 ![Resultado do modelo](resultado_modelo.png)
 
+## Resultados
+
+O modelo alcançou aproximadamente **97% de acurácia** no conjunto de teste do dataset MNIST, demonstrando boa capacidade de classificação de dígitos manuscritos utilizando uma rede neural simples.
+
 ## Autor
 Gustavo Vitor Santos da Gama
